@@ -41,6 +41,7 @@ main{
   width: 250px;
   height: 150px;
   margin-right:3px;
+  margin-bottom:15px;
   
   
 }
@@ -54,14 +55,14 @@ footer{
   background-color: #222222;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 footer > div > span{
   color: white;
   
 }
 .icon{
-  width:280px;
-  background-color: ;
+  font-size: 30px;
 }
 #end-button{
   background-color: #4A4A4A;
@@ -76,3 +77,5 @@ footer > div > span{
   padding-right: 20px;
   
 }
+
+
