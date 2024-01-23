@@ -63,6 +63,20 @@ footer > div > span{
 }
 .icon{
   font-size: 30px;
+  text-align: center;
+  padding-left:20px;
+}
+.icon:hover{
+  color: #4BC800;
+  text-align: center;
+}
+.icon.up{
+  font-size: 10px;
+  padding-top: 23px;
+}
+.icon-meaning{
+  font-size: 10px;
+  align-items: center;
 }
 #end-button{
   background-color: #4A4A4A;
@@ -75,7 +89,10 @@ footer > div > span{
   color:red;
   padding-left: 20px;
   padding-right: 20px;
+  text-decoration: none;
   
 }
-
+.bar{
+  display: flex;
+}
 
