@@ -23,7 +23,7 @@ header{
 
 main{
   background-color: black;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 80px);
   overflow: auto;
   color: white;
   padding-top: 50px;
@@ -34,6 +34,7 @@ main{
   max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   
 }
 
@@ -51,7 +52,7 @@ main{
   background-color: rgba(189, 195, 199, 0.5);
 }
 footer{
-  height: 100px;
+  height: 80px;
   background-color: #222222;
   display: flex;
   justify-content: space-between;
@@ -62,7 +63,7 @@ footer > div > span{
   
 }
 .icon{
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding-left:20px;
 }
